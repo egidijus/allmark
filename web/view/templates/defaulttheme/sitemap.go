@@ -5,8 +5,8 @@
 package defaulttheme
 
 import (
-	"github.com/andreaskoch/allmark/web/view/templates/templatenames"
 	"fmt"
+	"github.com/egidijus/allmark/web/view/templates/templatenames"
 )
 
 func init() {

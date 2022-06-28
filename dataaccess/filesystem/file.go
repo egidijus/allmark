@@ -5,10 +5,10 @@
 package filesystem
 
 import (
-	"github.com/andreaskoch/allmark/common/content"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/common/util/hashutil"
 	"fmt"
+	"github.com/egidijus/allmark/common/content"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/common/util/hashutil"
 )
 
 type File struct {

@@ -5,11 +5,11 @@
 package handlers
 
 import (
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
 	"bufio"
 	"bytes"
 	"encoding/json"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 	"io"
 	"net/http"
 	"net/url"

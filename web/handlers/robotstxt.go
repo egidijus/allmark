@@ -5,10 +5,10 @@
 package handlers
 
 import (
-	"github.com/andreaskoch/allmark/web/header"
-	"github.com/andreaskoch/allmark/web/view/templates"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
 	"fmt"
+	"github.com/egidijus/allmark/web/header"
+	"github.com/egidijus/allmark/web/view/templates"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 	"net/http"
 )
 

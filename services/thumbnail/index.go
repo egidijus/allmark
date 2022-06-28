@@ -5,12 +5,12 @@
 package thumbnail
 
 import (
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/common/shutdown"
-	"github.com/andreaskoch/allmark/common/util/fsutil"
 	"encoding/json"
 	"fmt"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/common/shutdown"
+	"github.com/egidijus/allmark/common/util/fsutil"
 	"io"
 	"os"
 	"path/filepath"

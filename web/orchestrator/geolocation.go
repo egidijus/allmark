@@ -5,9 +5,9 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/model"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
 	"fmt"
+	"github.com/egidijus/allmark/model"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 	"strings"
 )
 

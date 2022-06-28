@@ -5,10 +5,10 @@
 package handlers
 
 import (
-	"github.com/andreaskoch/allmark/web/header"
-	"github.com/andreaskoch/allmark/web/orchestrator"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
 	"encoding/json"
+	"github.com/egidijus/allmark/web/header"
+	"github.com/egidijus/allmark/web/orchestrator"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 	"io"
 	"net/http"
 )

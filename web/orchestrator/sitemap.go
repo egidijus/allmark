@@ -5,8 +5,8 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 )
 
 type SitemapOrchestrator struct {
@@ -32,7 +32,7 @@ func (orchestrator *SitemapOrchestrator) GetSitemap() viewmodel.SitemapEntry {
 		sitemapModel := viewmodel.SitemapEntry{
 			Title:       rootItem.Title,
 			Description: rootItem.Description,
-			Children:      orchestrator.getSitemapEntries(rootItem.Route()),
+			Children:    orchestrator.getSitemapEntries(rootItem.Route()),
 			Path:        "/",
 		}
 
@@ -60,7 +60,7 @@ func (orchestrator *SitemapOrchestrator) getSitemapEntries(startRoute route.Rout
 		childModel := viewmodel.SitemapEntry{
 			Title:       child.Title,
 			Description: child.Description,
-			Children:      orchestrator.getSitemapEntries(childRoute),
+			Children:    orchestrator.getSitemapEntries(childRoute),
 			Path:        orchestrator.itemPather().Path(childRoute.Value()),
 		}
 

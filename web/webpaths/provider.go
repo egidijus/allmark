@@ -5,8 +5,8 @@
 package webpaths
 
 import (
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/common/route"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/common/route"
 )
 
 type WebPathProvider struct {

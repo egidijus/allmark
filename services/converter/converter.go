@@ -5,8 +5,8 @@
 package converter
 
 import (
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/model"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/model"
 )
 
 type Converter interface {

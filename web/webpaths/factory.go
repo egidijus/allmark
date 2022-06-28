@@ -5,10 +5,10 @@
 package webpaths
 
 import (
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/dataaccess"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/dataaccess"
 )
 
 func NewFactory(logger logger.Logger, repository dataaccess.Repository) *PatherFactory {

@@ -5,12 +5,12 @@
 package filesystem
 
 import (
-	"github.com/andreaskoch/allmark/common/config"
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/common/util/fsutil"
-	"github.com/andreaskoch/allmark/dataaccess"
 	"fmt"
+	"github.com/egidijus/allmark/common/config"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/common/util/fsutil"
+	"github.com/egidijus/allmark/dataaccess"
 	"path/filepath"
 )
 

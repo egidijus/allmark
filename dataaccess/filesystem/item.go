@@ -5,11 +5,11 @@
 package filesystem
 
 import (
-	"github.com/andreaskoch/allmark/common/content"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/common/util/hashutil"
-	"github.com/andreaskoch/allmark/dataaccess"
 	"fmt"
+	"github.com/egidijus/allmark/common/content"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/common/util/hashutil"
+	"github.com/egidijus/allmark/dataaccess"
 )
 
 // Create a new physical item.
@@ -74,9 +74,9 @@ func newItem(itemType dataaccess.ItemType,
 type Item struct {
 	*content.ContentProvider
 
-	itemType   dataaccess.ItemType
-	route      route.Route
-	filesFunc  func() []dataaccess.File
+	itemType     dataaccess.ItemType
+	route        route.Route
+	filesFunc    func() []dataaccess.File
 	childrenFunc func() []dataaccess.Item
 
 	directory string

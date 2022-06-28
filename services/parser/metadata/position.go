@@ -5,8 +5,8 @@
 package metadata
 
 import (
-	"github.com/andreaskoch/allmark/services/parser/pattern"
 	"fmt"
+	"github.com/egidijus/allmark/services/parser/pattern"
 )
 
 // Get the position of the meta data section from the supplied lines.

@@ -7,16 +7,16 @@ package main
 import (
 	"fmt"
 
-	"github.com/andreaskoch/allmark/common/config"
-	"github.com/andreaskoch/allmark/common/logger/console"
-	"github.com/andreaskoch/allmark/common/logger/loglevel"
-	"github.com/andreaskoch/allmark/common/shutdown"
-	"github.com/andreaskoch/allmark/common/util/fsutil"
-	"github.com/andreaskoch/allmark/dataaccess/filesystem"
-	"github.com/andreaskoch/allmark/services/initialization"
-	"github.com/andreaskoch/allmark/services/parser"
-	"github.com/andreaskoch/allmark/services/thumbnail"
-	"github.com/andreaskoch/allmark/web/server"
+	"github.com/egidijus/allmark/common/config"
+	"github.com/egidijus/allmark/common/logger/console"
+	"github.com/egidijus/allmark/common/logger/loglevel"
+	"github.com/egidijus/allmark/common/shutdown"
+	"github.com/egidijus/allmark/common/util/fsutil"
+	"github.com/egidijus/allmark/dataaccess/filesystem"
+	"github.com/egidijus/allmark/services/initialization"
+	"github.com/egidijus/allmark/services/parser"
+	"github.com/egidijus/allmark/services/thumbnail"
+	"github.com/egidijus/allmark/web/server"
 	// "github.com/davecheney/profile"
 	"flag"
 	"os"
@@ -149,7 +149,7 @@ func printUsageInformation(args []string) {
 	fmt.Fprintf(os.Stderr, "  %7s  %s\n", CommandNameInit, "Initialize the configuration")
 	fmt.Fprintf(os.Stderr, "  %7s  %s\n", CommandNameServe, "Start serving the supplied repository via HTTP and HTTPs")
 	fmt.Fprintf(os.Stderr, "\n")
-	fmt.Fprintf(os.Stderr, "Fork me on GitHub %q\n", "https://github.com/andreaskoch/allmark")
+	fmt.Fprintf(os.Stderr, "Fork me on GitHub %q\n", "https://github.com/egidijus/allmark")
 
 	os.Exit(2)
 }

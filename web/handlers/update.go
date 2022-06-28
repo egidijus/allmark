@@ -5,14 +5,14 @@
 package handlers
 
 import (
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/web/handlers/update"
-	"github.com/andreaskoch/allmark/web/header"
-	"github.com/andreaskoch/allmark/web/orchestrator"
-	"github.com/andreaskoch/allmark/web/view/templates"
-	"github.com/andreaskoch/allmark/web/view/templates/templatenames"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/web/handlers/update"
+	"github.com/egidijus/allmark/web/header"
+	"github.com/egidijus/allmark/web/orchestrator"
+	"github.com/egidijus/allmark/web/view/templates"
+	"github.com/egidijus/allmark/web/view/templates/templatenames"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 	"golang.org/x/net/websocket"
 	"strings"
 )

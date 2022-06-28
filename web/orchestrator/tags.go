@@ -5,9 +5,9 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
 	"fmt"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 	"math"
 	"net/url"
 )

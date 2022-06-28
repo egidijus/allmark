@@ -5,7 +5,7 @@
 package handlers
 
 import (
-	"github.com/andreaskoch/allmark/common/logger"
+	"github.com/egidijus/allmark/common/logger"
 	"net/http"
 )
 

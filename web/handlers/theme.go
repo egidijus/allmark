@@ -5,10 +5,10 @@
 package handlers
 
 import (
-	"github.com/andreaskoch/allmark/common/util/hashutil"
-	"github.com/andreaskoch/allmark/web/header"
-	"github.com/andreaskoch/allmark/web/view/themes"
 	"fmt"
+	"github.com/egidijus/allmark/common/util/hashutil"
+	"github.com/egidijus/allmark/web/header"
+	"github.com/egidijus/allmark/web/view/themes"
 	"mime"
 	"net/http"
 	"path/filepath"

@@ -5,12 +5,12 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/common/config"
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/dataaccess"
-	"github.com/andreaskoch/allmark/services/converter"
-	"github.com/andreaskoch/allmark/services/parser"
-	"github.com/andreaskoch/allmark/web/webpaths"
+	"github.com/egidijus/allmark/common/config"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/dataaccess"
+	"github.com/egidijus/allmark/services/converter"
+	"github.com/egidijus/allmark/services/parser"
+	"github.com/egidijus/allmark/web/webpaths"
 )
 
 func NewFactory(logger logger.Logger, config config.Config, repository dataaccess.Repository, parser parser.Parser, converter converter.Converter, webPathProvider webpaths.WebPathProvider) *Factory {

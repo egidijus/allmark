@@ -5,10 +5,10 @@
 package postprocessor
 
 import (
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/model"
 	"fmt"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/model"
 	"regexp"
 	"strings"
 )

@@ -7,7 +7,7 @@ package typedetection
 import (
 	"testing"
 
-	"github.com/andreaskoch/allmark/model"
+	"github.com/egidijus/allmark/model"
 )
 
 func Test_DetectType_Document(t *testing.T) {

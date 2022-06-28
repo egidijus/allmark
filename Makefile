@@ -1,5 +1,6 @@
 build:
 	go build -o bin/files/allmark ./cli
+	@echo "please look for a binary in ./bin/files/"
 
 install:
 	go build -o bin/files/allmark ./cli
@@ -14,3 +15,11 @@ crosscompile:
 	GOOS=linux GOARCH=arm GOARM=7 go build -o bin/files/allmark_linux_arm_7 ./cli
 	GOOS=darwin GOARCH=amd64 go build -o bin/files/allmark_darwin_amd64 ./cli
 	GOOS=windows GOARCH=amd64 go build -o bin/files/allmark_windows_amd64 ./cli
+
+
+go_modules:
+	go mod init; \
+	go mod tidy
+
+run_serve:
+	./bin/files/allmark serve -livereload .

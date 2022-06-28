@@ -5,12 +5,12 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/common/content"
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/model"
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
 	"fmt"
+	"github.com/egidijus/allmark/common/content"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/model"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 )
 
 type FileOrchestrator struct {

@@ -5,7 +5,7 @@
 package server
 
 import (
-	"github.com/andreaskoch/allmark/common/config"
+	"github.com/egidijus/allmark/common/config"
 	"net"
 	"testing"
 )

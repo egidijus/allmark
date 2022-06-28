@@ -8,7 +8,7 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/model"
+	"github.com/egidijus/allmark/model"
 	"hash/fnv"
 	"sync"
 )

@@ -5,11 +5,11 @@
 package preprocessor
 
 import (
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/model"
-	"github.com/andreaskoch/allmark/services/converter/markdowntohtml/imageprovider"
 	"fmt"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/model"
+	"github.com/egidijus/allmark/services/converter/markdowntohtml/imageprovider"
 	"regexp"
 	"strings"
 )

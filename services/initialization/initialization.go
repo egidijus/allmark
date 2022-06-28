@@ -5,11 +5,11 @@
 package initialization
 
 import (
-	"github.com/andreaskoch/allmark/common/config"
-	"github.com/andreaskoch/allmark/common/util/fsutil"
-	"github.com/andreaskoch/allmark/web/view/templates"
-	"github.com/andreaskoch/allmark/web/view/themes"
 	"fmt"
+	"github.com/egidijus/allmark/common/config"
+	"github.com/egidijus/allmark/common/util/fsutil"
+	"github.com/egidijus/allmark/web/view/templates"
+	"github.com/egidijus/allmark/web/view/themes"
 )
 
 func Initialize(baseFolder string) (success bool, err error) {

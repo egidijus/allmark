@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/dataaccess"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/dataaccess"
 )
 
 type ItemType int

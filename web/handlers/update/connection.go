@@ -5,8 +5,8 @@
 package update
 
 import (
-	"github.com/andreaskoch/allmark/common/route"
 	"fmt"
+	"github.com/egidijus/allmark/common/route"
 	"golang.org/x/net/websocket"
 )
 

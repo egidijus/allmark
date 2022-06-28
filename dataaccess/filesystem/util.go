@@ -5,8 +5,8 @@
 package filesystem
 
 import (
-	"github.com/andreaskoch/allmark/common/config"
-	"github.com/andreaskoch/allmark/common/util/fsutil"
+	"github.com/egidijus/allmark/common/config"
+	"github.com/egidijus/allmark/common/util/fsutil"
 	"io/ioutil"
 	"path/filepath"
 	"strings"

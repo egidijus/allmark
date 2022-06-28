@@ -5,13 +5,13 @@
 package handlers
 
 import (
-	"github.com/andreaskoch/allmark/common/config"
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/common/util/fsutil"
-	"github.com/andreaskoch/allmark/web/header"
-	"github.com/andreaskoch/allmark/web/orchestrator"
-	"github.com/andreaskoch/allmark/web/view/templates"
 	"fmt"
+	"github.com/egidijus/allmark/common/config"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/common/util/fsutil"
+	"github.com/egidijus/allmark/web/header"
+	"github.com/egidijus/allmark/web/orchestrator"
+	"github.com/egidijus/allmark/web/view/templates"
 	"net/http"
 )
 

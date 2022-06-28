@@ -5,10 +5,10 @@
 package filesystem
 
 import (
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/common/route"
 	"fmt"
 	"github.com/andreaskoch/go-fswatch"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/common/route"
 )
 
 type watcherPather interface {

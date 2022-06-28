@@ -7,7 +7,7 @@ package webpaths
 import (
 	"testing"
 
-	"github.com/andreaskoch/allmark/common/route"
+	"github.com/egidijus/allmark/common/route"
 )
 
 func Test_RelativeWebPathProvider_RootAsBasePath_Path_ReturnsPathWithLeadingSlash(t *testing.T) {

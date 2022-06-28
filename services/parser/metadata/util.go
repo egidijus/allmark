@@ -5,7 +5,7 @@
 package metadata
 
 import (
-	"github.com/andreaskoch/allmark/services/parser/pattern"
+	"github.com/egidijus/allmark/services/parser/pattern"
 	"strings"
 )
 

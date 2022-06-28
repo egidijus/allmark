@@ -5,9 +5,9 @@
 package search
 
 import (
-	"github.com/andreaskoch/allmark/common/logger"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/model"
+	"github.com/egidijus/allmark/common/logger"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/model"
 	"strings"
 )
 

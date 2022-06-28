@@ -5,8 +5,8 @@
 package console
 
 import (
-	"github.com/andreaskoch/allmark/common/logger/loglevel"
 	"bytes"
+	"github.com/egidijus/allmark/common/logger/loglevel"
 	"strings"
 	"testing"
 )

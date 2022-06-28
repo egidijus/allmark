@@ -5,7 +5,7 @@
 package metadata
 
 import (
-	"github.com/andreaskoch/allmark/model"
+	"github.com/egidijus/allmark/model"
 	"strconv"
 )
 

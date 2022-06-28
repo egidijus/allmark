@@ -5,8 +5,8 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
 	"fmt"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 )
 
 // AliasIndexOrchestrator provides alias index entries.

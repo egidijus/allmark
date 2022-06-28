@@ -5,10 +5,10 @@
 package imageprovider
 
 import (
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/services/thumbnail"
 	"fmt"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/services/thumbnail"
 	"strings"
 )
 

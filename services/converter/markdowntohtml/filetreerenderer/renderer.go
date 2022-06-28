@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/andreaskoch/allmark/common/paths"
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/model"
+	"github.com/egidijus/allmark/common/paths"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/model"
 )
 
 func New(pathProvider paths.Pather, baseRoute route.Route, files []*model.File) *FileTreeRenderer {

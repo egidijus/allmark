@@ -8,7 +8,7 @@
 package orchestrator
 
 import (
-	"github.com/andreaskoch/allmark/web/view/viewmodel"
+	"github.com/egidijus/allmark/web/view/viewmodel"
 	"hash/fnv"
 	"sync"
 )

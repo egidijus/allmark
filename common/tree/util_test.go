@@ -5,7 +5,7 @@
 package tree
 
 import (
-	"github.com/andreaskoch/allmark/common/route"
+	"github.com/egidijus/allmark/common/route"
 	"testing"
 )
 

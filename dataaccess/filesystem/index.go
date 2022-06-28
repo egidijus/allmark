@@ -5,9 +5,9 @@
 package filesystem
 
 import (
-	"github.com/andreaskoch/allmark/common/route"
-	"github.com/andreaskoch/allmark/dataaccess"
 	"fmt"
+	"github.com/egidijus/allmark/common/route"
+	"github.com/egidijus/allmark/dataaccess"
 )
 
 func newIndex() *Index {

@@ -5,8 +5,8 @@
 package templates
 
 import (
-	"github.com/andreaskoch/allmark/common/util/fsutil"
 	"fmt"
+	"github.com/egidijus/allmark/common/util/fsutil"
 	"io/ioutil"
 	"os"
 	"path/filepath"

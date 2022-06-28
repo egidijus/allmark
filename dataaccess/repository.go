@@ -5,8 +5,8 @@
 package dataaccess
 
 import (
-	"github.com/andreaskoch/allmark/common/route"
 	"fmt"
+	"github.com/egidijus/allmark/common/route"
 )
 
 type PathProvider interface {

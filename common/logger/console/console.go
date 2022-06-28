@@ -7,8 +7,8 @@
 package console
 
 import (
-	"github.com/andreaskoch/allmark/common/logger/loglevel"
 	"fmt"
+	"github.com/egidijus/allmark/common/logger/loglevel"
 	"io"
 	"log"
 	"os"

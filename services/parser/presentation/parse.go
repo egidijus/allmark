@@ -5,10 +5,10 @@
 package presentation
 
 import (
-	"github.com/andreaskoch/allmark/model"
-	"github.com/andreaskoch/allmark/services/parser/document"
-	"github.com/andreaskoch/allmark/services/parser/pattern"
 	"fmt"
+	"github.com/egidijus/allmark/model"
+	"github.com/egidijus/allmark/services/parser/document"
+	"github.com/egidijus/allmark/services/parser/pattern"
 	"strings"
 	"time"
 )
